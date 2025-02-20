@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "AutotraderApi.Controllers.CarsController",
+    "Method": "AddNewCar",
+    "RelativePath": "cars",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCarDto",
+        "Type": "AutotraderApi.Models.Dtos.CreateCarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutotraderApi.Controllers.CarsController",
+    "Method": "GetAllCar",
+    "RelativePath": "cars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutotraderApi.Controllers.CarsController",
+    "Method": "DeleteCar",
+    "RelativePath": "cars",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutotraderApi.Controllers.CarsController",
+    "Method": "UpdateCar",
+    "RelativePath": "cars",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateCarDto",
+        "Type": "AutotraderApi.Models.Dtos.UpdateCarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AutotraderApi.Controllers.CarsController",
+    "Method": "GetCar",
+    "RelativePath": "cars/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
